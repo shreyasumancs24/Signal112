@@ -1,36 +1,207 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚨 Signal112
 
-## Getting Started
+> AI-Powered Emergency Dispatch Intelligence Platform
 
-First, run the development server:
+Signal112 is a modern emergency dispatch simulation platform that demonstrates how Artificial Intelligence can assist emergency response centers by replacing traditional IVR-based workflows with intelligent speech understanding, emergency prioritization, and dispatcher decision support.
+
+Instead of navigating lengthy phone menus, callers describe emergencies naturally while AI analyzes the conversation, generates structured incident summaries, estimates severity, and assists human dispatchers in making faster decisions.
+
+---
+
+## 🌟 Features
+
+- 🎤 Voice-based emergency reporting
+- 🧠 AI-powered speech transcription
+- 🚨 Intelligent emergency classification
+- 📊 Priority-based incident queue
+- 👨‍💻 Dispatcher dashboard
+- 📝 AI-generated emergency summaries
+- 🔐 Human verification before dispatch
+- 📱 Responsive modern UI
+- ⚡ Real-time workflow simulation
+
+---
+
+## 🏗️ Project Structure
+
+```
+src/
+│
+├── app/
+│   ├── about/
+│   ├── caller/
+│   ├── dispatcher/
+│   ├── features/
+│   ├── workflow/
+│   └── page.tsx
+│
+├── components/
+│   ├── home/
+│   ├── caller/
+│   ├── dispatcher/
+│   └── ui/
+│
+├── lib/
+├── hooks/
+└── styles/
+```
+
+---
+
+## 🖥️ Screens
+
+- Home
+- Features
+- Workflow
+- About
+- Caller Simulator
+- Dispatcher Dashboard
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- Next.js 15
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+
+### Backend *(Upcoming)*
+
+- Node.js
+- Express.js
+
+### Database *(Upcoming)*
+
+- PostgreSQL
+- Prisma ORM
+
+### AI *(Upcoming)*
+
+- OpenAI API
+- Whisper Speech-to-Text
+- GPT-based Incident Analysis
+
+### Realtime *(Upcoming)*
+
+- Socket.io
+
+---
+
+## 🚀 How It Works
+
+```
+Caller
+      ↓
+Voice Input
+      ↓
+Speech-to-Text
+      ↓
+AI Analysis
+      ↓
+Emergency Classification
+      ↓
+Dispatcher Verification
+      ↓
+Emergency Services
+```
+
+---
+
+## 📸 Preview
+
+### Home
+
+> Coming Soon
+
+### Caller Interface
+
+> Coming Soon
+
+### Dispatcher Dashboard
+
+> Coming Soon
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/signal112.git
+```
+
+Navigate into the project
+
+```bash
+cd signal112
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+- [x] Landing Page
+- [x] Responsive Navigation
+- [ ] Caller Simulation
+- [ ] Live Voice Recording
+- [ ] Speech-to-Text Integration
+- [ ] AI Incident Summarization
+- [ ] Emergency Classification
+- [ ] Dispatcher Dashboard
+- [ ] Real-Time Communication
+- [ ] Authentication
+- [ ] Database Integration
+- [ ] Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💡 Inspiration
 
-## Deploy on Vercel
+Traditional emergency dispatch systems often rely on IVR menus and manual note-taking, which can introduce delays during critical situations.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Signal112 explores how modern AI can streamline emergency communication while ensuring that the final dispatch decision remains under human supervision.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📌 Disclaimer
+
+Signal112 is an educational and portfolio project.
+
+It is **not intended for real-world emergency dispatch** and should not be used in production emergency services.
+
+---
+
+## 👩‍💻 Author
+
+**Shreya Suman**
+
+Built as a portfolio project to explore modern web development, AI integration, and real-time emergency response workflows.
+
+---
+
+## ⭐ Support
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
