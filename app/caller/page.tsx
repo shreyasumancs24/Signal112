@@ -1,7 +1,7 @@
 import InfoCard from "@/components/caller/infocard";
 export default function CallerPage() {
   return (
-    <main className="min-h-screen bg-[#0B1220] text-white flex justify-center items-center p-8">
+    <main className="min-h-screen pt-20 bg-[#0B1220] text-white flex justify-center items-center p-8">
 
       <div className="w-full max-w-4xl bg-[#111827] rounded-2xl border border-slate-800 p-10">
 

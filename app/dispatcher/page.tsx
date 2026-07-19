@@ -1,6 +1,6 @@
 export default function DispatcherPage() {
   return (
-    <main className="min-h-screen bg-[#0B1220] text-white p-8">
+    <main className="min-h-screen pt-20 bg-[#0B1220] text-white p-8">
 
       <h1 className="text-4xl font-bold mb-8">
         Dispatcher Dashboard
