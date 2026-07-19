@@ -132,7 +132,7 @@ Emergency Services
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/signal112.git
+git clone https://github.com/shreyasumancs24/Signal112
 ```
 
 Navigate into the project
